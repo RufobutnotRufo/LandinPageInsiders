@@ -1,0 +1,125 @@
+.register-field {
+    width: 100%;
+    margin: 0 auto;
+
+    .elems {
+        display: flex;
+        justify-content: center;
+    }
+
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+    .register-text {
+        margin-left: 190px;
+        display: flex;
+        justify-content: center;
+        gap: 220px;
+        width: 100%;
+        align-items: center;
+
+        .register-text-inner {
+            font-weight: 700;
+            font-size: 48px;
+            color: #000000;
+        }
+
+        .register-text-inner-btn {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+
+        label {
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input {
+           
+            padding: 10px;
+            margin-bottom: 15px;
+         
+            border-radius: 4px;
+            font-size: 16px;
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid #000000; 
+            background-color: inherit;
+           
+
+            &:focus {
+                border-color: #007bff;
+                outline: none;
+                box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+            }
+        }
+    }
+
+    .private-policy-check {
+        display: flex;
+        justify-content: flex-start;
+
+        .private-policy-checkbox {
+            margin-right: 10px;
+            width: 20px;
+        }
+    }
+
+    .sign-in {
+        width: 120px;
+
+
+        .sign-in-btn {
+            background-color: #000000;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 100px;
+        }
+    }
+
+    .have-an-account {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-top: 15px;
+
+
+
+        .log-in {
+            background: transparent;
+            border: none;
+            color: #007bff;
+            font-size: 16px;
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

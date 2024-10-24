@@ -9,3 +9,8 @@ export interface OurValuesTypes {
   img: any; 
   text: string;
 }
+
+export interface sliderComponents {
+  title:string;
+  img:any;
+}
