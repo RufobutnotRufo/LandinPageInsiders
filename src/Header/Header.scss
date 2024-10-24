@@ -1,0 +1,39 @@
+.header {
+    margin-top: 8px;
+
+    .header-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .hader-nav-menu {
+            .header-nav-menu-items {
+                display: flex;
+                gap: 54px;
+                align-items: center;
+
+                .header-nav-menu-item {
+                    .header-nav-menu-item-link {
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: #000000;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .user-emenet {
+            .sign {
+                border: none;
+                background-color: inherit;
+                cursor: pointer;
+                font-size: 14px;
+                font-family: "Source Sans 3", sans-serif;
+                font-weight: 600;
+                color: #000000;
+            }
+        }
+    }
+}
