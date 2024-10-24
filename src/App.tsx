@@ -13,6 +13,9 @@ function App() {
         <section>
           <MainCotent />
         </section>
+        <section>
+          <BlockConetnt />
+        </section>
       </main>
     </>
   );
