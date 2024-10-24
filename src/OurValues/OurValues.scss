@@ -1,0 +1,54 @@
+.our-values {
+    background-image:url('../MainContent//Mask\ Group.svg');
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    .our-values-inner {
+        .our-values-text {
+            .our-values-txt-content {
+                font-size: 50px;
+                font-weight: 700;
+                color: #1D1D1D;
+                font-family: "Source Sans 3", serif;
+            }
+        }
+    }
+
+    .content-blocks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+
+        .content-block {
+            margin-bottom: 39px;
+            background-color: whitesmoke;
+            display: flex;
+            flex-direction: column;
+            row-gap: 24px;
+            width: 416px;
+            border: solid #6d6161 1px;
+            border-radius: 20px;
+            padding: 24px 24px 24px 24px;
+
+            .content-block-title {
+                font-size: 32px;
+                font-weight: 700;
+                font-family: "Source Sans 3", serif;
+            }
+            .content-block-text{
+                font-weight: 600;
+                font-size: 14px;
+                color: #000000;
+                font-family: "Source Sans 3", serif;
+            }
+            .view-more-btn{
+                width: 135px;
+                background-color: #000000;
+                color: white;
+                padding: 16px 24px 16px 24px;
+                border-radius: 17px;
+            }
+        }
+
+
+    }
+}

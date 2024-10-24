@@ -2,7 +2,7 @@ import "./BlockContent.scss";
 import contentImg1 from "./image1.svg";
 import contentImg2 from "./image2.svg";
 import contentImg3 from "./image3.svg";
-import BlockContentTypes from "../Types";
+import {BlockContentTypes} from "../Types";
 
 const BlockConetnt = () => {
   const latestPost: BlockContentTypes[] = [

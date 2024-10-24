@@ -1,0 +1,33 @@
+.footer{
+    margin-top: 104px;
+    background-color: #000000;
+    .footer-inner{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .footer-logo-svg{
+            margin-top: 32px;
+        }
+        .footer-main-menu{
+            margin-top: 32px;
+            .footer-main-meu-items{
+                display: flex;
+                gap: 24px;
+                .footer-main-menu-item-link{
+                    font-size: 14px;
+                    color: #FFFFFF;
+                    font-family: "Source Sans 3", sans-serif;
+                    cursor: pointer;
+                }
+            }
+        }
+        .footer-links{
+            .footer-links-items{
+                margin-top: 32px;
+                display: flex;
+                gap: 24px;
+                cursor: pointer;
+            }
+        }
+    }
+}
