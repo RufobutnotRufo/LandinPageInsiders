@@ -2,7 +2,7 @@ import "./Header.scss";
 import LogoSvg from "../Header/logo.svg";
 
 const Header: React.FC = () => {
-  const headerMainMenuItems: any = [
+  const headerMainMenuItems: string[] = [
     "Home",
     "Success Stories",
     "Services",

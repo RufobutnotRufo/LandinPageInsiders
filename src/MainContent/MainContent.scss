@@ -1,0 +1,47 @@
+.main-content {
+    position: inherit;
+    margin-top: 32px;
+    .backround-svg-mark{
+        position: absolute;
+        z-index: -1;
+        top: -50px; 
+        .backround-mark-img{
+            max-width: 1200px; 
+        }
+    }
+
+    .main-content-inner {
+        padding: 0px 32px 0px 32px;
+        display: flex;
+        align-items: center;
+        margin-top: 32px;
+        .main-content-inner-text {
+            .main-content-inner-text-inner {
+                font-family: "Source Sans 3", serif;
+                font-size: 16px;
+                font-weight: 500;
+                color: #616161;
+            }
+            .main-content-inner-text-inner-content {
+                max-width: 500px;
+                margin-top: 27px;
+                font-weight: 700;
+                font-size: 50px;
+                font-family: "Source Sans 3", serif;
+                color: #1D1D1D;
+            }
+            .main-content-inner-text-inner-content-text {
+                font-weight: 400;
+                font-size: 22px;
+                color: #000000;
+            }
+            .text-create-date {
+                margin-top: 24px;
+                font-size: 16px;
+                font-weight: 400;
+                font-family: "Source Sans 3", serif;
+                color: #6F7070;
+            }
+        }
+    }
+}
